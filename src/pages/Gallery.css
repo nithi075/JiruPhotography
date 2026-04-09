@@ -139,3 +139,59 @@
     padding: 20px;
   }
 }
+/* --- Extra Small Devices (Mobile ≤600px) --- */
+/* ONLY size reduction, no style changes */
+
+@media (max-width: 600px) {
+
+  .gallery {
+    padding: 80px 6% 50px;
+  }
+
+  .gallery-header {
+    margin-bottom: 50px;
+  }
+
+  .gallery-tag {
+    font-size: 0.65rem;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+  }
+
+  .gallery-title {
+    font-size: clamp(1.9rem, 7vw, 2.4rem);
+    margin-bottom: 18px;
+  }
+
+  .gallery-subtitle {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin-bottom: 30px;
+  }
+
+  .gallery-cta {
+    padding: 13px 28px;
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+  }
+
+  .gallery-masonry {
+    grid-auto-rows: 300px;
+    gap: 18px;
+  }
+
+  .gallery-info {
+    padding: 18px;
+  }
+
+  .item-category {
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+  }
+
+  .item-title {
+    font-size: 1.1rem;
+  }
+
+}

@@ -162,3 +162,58 @@
   }
   .work-item:nth-child(3n) { grid-column: span 2 !important; }
 }
+/* --- Extra Small Devices (Mobile ≤600px) --- */
+/* ONLY size reduction */
+
+@media (max-width: 600px) {
+
+  .work {
+    padding: 80px 6%;
+  }
+
+  .work-header {
+    margin-bottom: 50px;
+  }
+
+  .work-tag {
+    font-size: 0.6rem;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+  }
+
+  .work-title {
+    font-size: clamp(1.9rem, 7vw, 2.4rem);
+  }
+
+  .title-underline {
+    width: 40px;
+    margin: 25px auto;
+  }
+
+  .editorial-grid {
+    grid-auto-rows: 200px;
+    gap: 16px;
+  }
+
+  .work-overlay {
+    padding: 20px;
+  }
+
+  .cat {
+    font-size: 0.55rem;
+    letter-spacing: 3px;
+    margin-bottom: 6px;
+  }
+
+  .work-name {
+    font-size: 1.2rem;
+  }
+
+  .view-more-btn {
+    margin-top: 60px;
+    padding: 18px 40px;
+    font-size: 0.65rem;
+    letter-spacing: 3px;
+  }
+
+}

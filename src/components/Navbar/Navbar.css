@@ -302,3 +302,67 @@ body {
   }
 
 }
+/* --- Extra Small Devices (Mobile ≤600px) --- */
+@media (max-width: 600px) {
+
+  .nav {
+    padding: 18px 0;
+  }
+
+  .nav-container {
+    padding: 0 5%;
+  }
+
+  .logo {
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+  }
+
+  .logo span {
+    font-size: 0.45rem;
+    letter-spacing: 3px;
+    margin-top: 4px;
+  }
+
+  .menu-toggle {
+    padding: 6px;
+  }
+
+  .hamburger-line {
+    width: 22px;
+    margin: 5px auto;
+  }
+
+  /* mobile fullscreen menu */
+  .mobile-overlay {
+    padding: 0 8%;
+  }
+
+  .mobile-links a {
+    font-size: clamp(1.4rem, 8vw, 1.9rem);
+    margin: 10px 0;
+  }
+
+  .mobile-links a small {
+    font-size: 0.5rem;
+    letter-spacing: 2px;
+  }
+
+  .menu-footer {
+    bottom: 40px;
+  }
+
+  .menu-footer p {
+    font-size: 0.55rem;
+    letter-spacing: 2px;
+  }
+
+  .social-mini {
+    gap: 20px;
+  }
+
+  .social-mini a {
+    font-size: 0.65rem;
+  }
+
+}

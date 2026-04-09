@@ -1,9 +1,9 @@
 import "./Hero.css";
 
 export default function Hero() {
-  const whatsappNumber = "919659414250";
+  const whatsappNumber = "918610574181";
   const message =
-    "Hello Mithuna Photography, I would like to book a luxury photography session. Please share details.";
+    "Hello  Elite Diaries, I would like to book a luxury photography session. Please share details.";
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
     message
   )}`;

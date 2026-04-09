@@ -1,7 +1,7 @@
 import "./Contact.css";
 
 export default function Contact() {
-  const whatsappNumber = "919659414250"; 
+  const whatsappNumber = "918610574181"; 
   const message = "Hello MihtunaPhotography, I'm interested in booking a luxury session. Let's discuss!";
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
@@ -26,23 +26,23 @@ export default function Contact() {
           <div className="contact-info">
             <div className="info-block">
               <span className="info-label">Direct Inquiries</span>
-              <a href="mailto:mithunaphotography@gmail.com" className="info-value email">
-                mithunaphotography@gmail.com
+              <a href="mailto:theelitediaries@gmail.com" className="info-value email">
+                theelitediaries@gmail.com
               </a>
               <a href="tel:+919047098800" className="info-value phone">
-                +91 96594 14250
+                +91 86105 74181
               </a>
             </div>
 
             <div className="info-block">
               <span className="info-label">Main Atelier</span>
-              <p className="info-value">Erode, Tamil Nadu</p>
+              <p className="info-value">Trichy, Tamil Nadu</p>
             </div>
 
             <div className="info-block">
               <span className="info-label">Digital Presence</span>
               <div className="social-links-minimal">
-                <a href="https://www.instagram.com/mithuna_photography" target="_blank" rel="noreferrer">Instagram</a>
+                <a href="https://www.instagram.com/the.elitediaries" target="_blank" rel="noreferrer">Instagram</a>
                 <span className="dot"></span>
                 <a href={whatsappLink} target="_blank" rel="noreferrer">WhatsApp</a>
               </div>
@@ -79,7 +79,7 @@ export default function Contact() {
           <div className="footer-line"></div>
           <div className="footer-flex">
             <div className="footer-brand">
-             Mihtuna<span className="brand-sub">Photography</span>
+             The Elite<span className="brand-sub">Diaries</span>
             </div>
             <div className="footer-links">
               <span>&copy; 2026</span>

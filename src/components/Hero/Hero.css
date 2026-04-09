@@ -207,3 +207,63 @@
     padding: 18px 0; 
   }
 }
+/* --- Extra Small Devices (Mobile ≤600px) --- */
+@media (max-width: 600px) {
+
+  .hero {
+    height: 92vh;
+    padding: 0 5%;
+  }
+
+  .hero-content {
+    padding: 10px;
+  }
+
+  .hero-tag {
+    font-size: 0.6rem;
+    letter-spacing: 3px;
+    margin-bottom: 18px;
+  }
+
+  .hero-title {
+    font-size: clamp(2rem, 8vw, 2.4rem);
+    line-height: 1.2;
+    letter-spacing: -0.3px;
+    margin-bottom: 25px;
+  }
+
+  .hero-divider {
+    width: 40px;
+    margin: 25px auto;
+  }
+
+  .hero-description {
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    line-height: 1.7;
+    margin-bottom: 35px;
+  }
+
+  .hero-description span {
+    font-size: 0.55rem;
+    letter-spacing: 4px;
+    margin-top: 8px;
+  }
+
+  .hero-actions {
+    max-width: 260px;
+    gap: 12px;
+  }
+
+  .btn-premium,
+  .btn-outline {
+    font-size: 0.65rem;
+    letter-spacing: 2px;
+    padding: 16px 0;
+  }
+
+  .hero-img {
+    transform: scale(1.08); /* keeps cinematic feel on small screen */
+  }
+
+}

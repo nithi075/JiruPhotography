@@ -39,7 +39,7 @@ export default function About() {
             <div className="about-signature">
               <div className="sig-line-top"></div>
               <div className="sig-meta">
-                <span className="sig-brand">Mithuna Photography</span>
+                <span className="sig-brand">The Elite Diaries</span>
                 <span className="sig-year">Est. 2024 / TRICHY</span>
               </div>
             </div>

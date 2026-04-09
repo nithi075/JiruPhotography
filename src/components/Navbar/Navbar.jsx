@@ -33,7 +33,7 @@ export default function Navbar() {
       <div className="nav-container">
         <div className="logo-wrapper">
           <h2 className="logo">
-           Mihtuna<span>Photography</span>
+           The ELITE<span>DIaries</span>
           </h2>
         </div>
 
