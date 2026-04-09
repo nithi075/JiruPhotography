@@ -31,7 +31,7 @@ export default function About() {
           {/* Right: Refined Description */}
           <div className="about-right">
             <p className="about-description">
-              Based in <strong>Trichy</strong>,MihtunaPhotography specializes in high-end 
+              Based in <strong>Coimbatore</strong>,MihtunaPhotography specializes in high-end 
               visual storytelling. We believe every frame should be a masterpiece—crafted 
               with elegance, sophistication, and raw authenticity.
             </p>
@@ -39,7 +39,7 @@ export default function About() {
             <div className="about-signature">
               <div className="sig-line-top"></div>
               <div className="sig-meta">
-                <span className="sig-brand">The Elite Diaries</span>
+                <span className="sig-brand">24 Frames Photography</span>
                 <span className="sig-year">Est. 2024 / TRICHY</span>
               </div>
             </div>

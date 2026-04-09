@@ -4,8 +4,8 @@ import "./Hero.css";
 export default function Hero() {
   const [currentImg, setCurrentImg] = useState(0);
 
-  const whatsappNumber = "918610574181";
-  const message = "Hello Elite Diaries, I would like to book a luxury photography session. Please share details.";
+  const whatsappNumber = "918248590112";
+  const message = "Hello 24 Frames Photography, I would like to book a luxury photography session. Please share details.";
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
   // 3 Unsplash images for the slideshow

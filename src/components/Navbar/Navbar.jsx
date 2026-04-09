@@ -33,7 +33,7 @@ export default function Navbar() {
       <div className="nav-container">
         <div className="logo-wrapper">
           <h2 className="logo">
-           The ELITE<span>DIaries</span>
+           24 Frames<span>Photography</span>
           </h2>
         </div>
 
