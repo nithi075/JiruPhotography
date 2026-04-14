@@ -33,7 +33,7 @@ export default function Navbar() {
       <div className="nav-container">
         <div className="logo-wrapper">
           <h2 className="logo">
-           24 Frames<span>Photography</span>
+           Jiru<span>Photography</span>
           </h2>
         </div>
 

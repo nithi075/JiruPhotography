@@ -38,7 +38,7 @@ export default function Gallery() {
           with timeless elegance and cinematic storytelling.
         </p>
         <a
-          href="https://wa.me/918248590112?text=Hello%2024%20Frames%20Photography,%20I%20want%20to%20book%20a%20photoshoot"
+          href="https://wa.me/919384583567?text=Hello%20Jiru%20Photography,%20I%20want%20to%20book%20a%20photoshoot"
           target="_blank"
           rel="noopener noreferrer"
           className="gallery-cta"

@@ -1,8 +1,9 @@
+
 import "./Contact.css";
 
 export default function Contact() {
-  const whatsappNumber = "918248590112"; 
-  const message = "Hello 24 Frames Photography, I'm interested in booking a luxury session. Let's discuss!";
+  const whatsappNumber = "919384583567"; 
+  const message = "Hello Jiru Photography, I'm interested in booking a luxury session. Let's discuss!";
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
   return (
@@ -26,17 +27,17 @@ export default function Contact() {
           <div className="contact-info">
             <div className="info-block">
               <span className="info-label">Direct Inquiries</span>
-              <a href="mailto:24framesphotography@gmail.com" className="info-value email">
-                24framesphotography@gmail.com
+              <a href="mailto:Jiruphotography@gmail.com" className="info-value email">
+                Jiruphotography@gmail.com
               </a>
               <a href="tel:+919047098800" className="info-value phone">
-                +91 82485 90112
+                +91 93845 83567
               </a>
             </div>
 
             <div className="info-block">
               <span className="info-label">Main Atelier</span>
-              <p className="info-value">Coimbatore, Tamil Nadu</p>
+              <p className="info-value">Madurai, Tamil Nadu</p>
             </div>
 
             <div className="info-block">
@@ -79,7 +80,7 @@ export default function Contact() {
           <div className="footer-line"></div>
           <div className="footer-flex">
             <div className="footer-brand">
-             24<span className="brand-sub">Frames Photography</span>
+             Jiru<span className="brand-sub">Photography</span>
             </div>
             <div className="footer-links">
               <span>&copy; 2026</span>
